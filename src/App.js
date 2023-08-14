@@ -4,6 +4,8 @@ import Item1 from './components/Item#1';
 import Item2 from './components/Item#2';
 import Item3 from './components/Item#3';
 import Item4 from './components/Item#4';
+import Item5 from './components/Item#5';
+import Item6 from './components/Item#6';
 
 import './App.css';
 
@@ -22,6 +24,11 @@ function App() {
         return <Item3></Item3>;
       case "Item#4":
         return <Item4></Item4>;
+      case "Item#5":
+        return <Item5></Item5>;
+      case "Item#6":
+        return <Item6></Item6>;
+  
       default:
         return <Item1></Item1>;
     };

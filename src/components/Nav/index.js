@@ -39,6 +39,17 @@ function Nav(props) {
             Item #4
             </a>
           </li>
+          <li className={currentPage === "Item#5" ? "currentPage" : ""}>
+            <a data-testid="Item#5" href="Item#5" onClick={() => setCurrentPage("Item#5")}>
+            Item #5
+            </a>
+          </li>
+          <li className={currentPage === "Item#6" ? "currentPage" : ""}>
+            <a data-testid="Item#6" href="Item#6" onClick={() => setCurrentPage("Item#6")}>
+            Item #6
+            </a>
+          </li>
+
         </ul>
       </nav>
     </header>
