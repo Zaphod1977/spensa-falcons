@@ -18,7 +18,7 @@ function Nav(props) {
         </a>
       </h2>
       <nav>
-        <ul className="flex-wrap">
+        <ul className="flex-row">
           <li className={currentPage === "Item#1" ? "currentPage" : ""}>
             <a data-testid="Item#1" href="Item#1" onClick={() => setCurrentPage("Item#1")}>
               Item #1
