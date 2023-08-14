@@ -1,48 +1,23 @@
 import React from 'react';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
-import horrorScorer from '../../assets/images/horror_scorer_screengrab.jpg'
-import movieJuice from '../../assets/images/movieJuice.jpg'
-import STL_Happens from '../../assets/images/STL_Happens screenshot.jpg'
-import weatherApp from '../../assets/images/weather resize.jpg'
+import Item2Image from '../../assets/images/IMG_0609.jpg';
 import Project from '../Project';
 
 
 function Item2(props) {
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Portfolio</h2>
-      <div className="work-rightside">
-        <div className="btmw">
-          <Project
-            linkurl="https://horror-scorer.herokuapp.com/" 
-            imageSource={horrorScorer}
+      <h2 className="work-leftside">Item#2</h2>
+      <div >
+        <div className="">
+          <Project className="resume"
+            imageSource={Item2Image}
             imageAlt=""
-            label="MERN Demo">
-          </Project>
-          <Project
-            linkurl="https://agile-harbor-58683.herokuapp.com/"
-            imageSource={STL_Happens}
-            imageAlt="STL_Happens screenshot"
-            label="STL Happens">
-          </Project>
-        </div>
-        <div className="btmw">
-          <Project
-            linkurl="https://zaphod1977.github.io/Weather-Dashboard/"
-            imageSource={weatherApp}
-            imageAlt="webpage screengrab"
-            label="Weather App">
-          </Project>
-          <Project
-            linkurl="https://amymgardiner.github.io/movieJuice/"
-            imageSource={movieJuice}
-            imageAlt="webpage screengrab"
-            label="movieJuice">
+            label="">
           </Project>
         </div>
       </div>
     </section>
-
   );
-}
+};
+
 export default Item2;
