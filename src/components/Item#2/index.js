@@ -1,5 +1,5 @@
 import React from 'react';
-import Item2Image from '../../assets/images/IMG_0609.jpg';
+import Item2Image from '../../assets/images/item2.jpg';
 import Project from '../Project';
 
 
