@@ -31,7 +31,7 @@ function App() {
   
       default:
         return <Item1></Item1>;
-    };
+    }
   }
 
   return (
