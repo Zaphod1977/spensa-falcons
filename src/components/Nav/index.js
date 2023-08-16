@@ -21,15 +21,15 @@ function Nav(props) {
         <ul className="flex-row">
           <li className={currentPage === "Item#1" ? "currentPage" : ""}>
             <a data-testid="Item#1" href="Item#1" onClick={() => setCurrentPage("Item#1")}>
-              Item #1
+              Item #1-3
             </a>
           </li>
           <li className={currentPage === "Item#2" ? "currentPage" : ""}>
             <a data-testid="Item#2" href="Item#2" onClick={() => setCurrentPage("Item#2")}>
-            Item #2
+            Item #4-6
             </a>
           </li>
-          <li className={currentPage === "Item#3" ? "currentPage" : ""}>
+          {/* <li className={currentPage === "Item#3" ? "currentPage" : ""}>
             <a data-testid="Item#3" href="Item#3" onClick={() => setCurrentPage("Item#3")}>
             Item #3
             </a>
@@ -48,8 +48,7 @@ function Nav(props) {
             <a data-testid="Item#6" href="Item#6" onClick={() => setCurrentPage("Item#6")}>
             Item #6
             </a>
-          </li>
-
+          </li> */}
         </ul>
       </nav>
     </header>
