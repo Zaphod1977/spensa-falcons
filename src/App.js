@@ -6,6 +6,7 @@ import Item3 from './components/Item#3';
 import Item4 from './components/Item#4';
 import Item5 from './components/Item#5';
 import Item6 from './components/Item#6';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -43,6 +44,8 @@ function App() {
       <div className="space">
       </div>
       <main>{switchPage(currentPage)}</main>
+      <Footer></Footer>
+
     </div>
   );
 }
