@@ -44,7 +44,7 @@ function App() {
       <div className="space">
       </div>
       <main>{switchPage(currentPage)}</main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
