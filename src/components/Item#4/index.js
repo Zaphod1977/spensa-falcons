@@ -7,7 +7,7 @@ function Item4(props) {
 
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Item#4</h2>
+      <h2 className="work-leftside">Mak'r</h2>
       <div >
         <div className="">
           <Project className="resume"

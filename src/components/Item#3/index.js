@@ -6,7 +6,7 @@ import Project from '../Project';
 function Item3(props) {
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Item#3</h2>
+      <h2 className="work-leftside">Photography</h2>
       <div >
         <div className="">
           <Project className="resume"
